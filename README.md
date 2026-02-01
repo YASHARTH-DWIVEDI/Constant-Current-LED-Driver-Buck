@@ -15,19 +15,7 @@ thermal effects, and noise all influence outcomes.
 - Design a constant-current LED driver
 - Improve efficiency compared to linear regulation
 - Experience the full hardware lifecycle:
-
-design → build → debug → refine
-flowchart LR
-    VIN[DC Input Supply] --> SW[MOSFET Switch]
-    SW --> L[Inductor]
-    L --> LED[LED Load]
-    LED --> RS[Sense Resistor]
-    RS --> GND[Ground]
-
-    RS --> FB[Feedback Signal]
-    FB --> CTRL[Controller / PWM Logic]
-    CTRL --> SW
-
+- 
 ---
 
 ## Working Principle
