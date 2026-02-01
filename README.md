@@ -1,5 +1,3 @@
-# Constant-Current-LED-Driver-Buck
-This project involves the design and implementation of a buck converter–based constant-current LED driver. Unlike voltage regulators, LEDs require precise current control to ensure reliability, efficiency, and longevity.
 # Constant-Current LED Driver (Buck Converter)
 
 ## Overview
@@ -50,6 +48,7 @@ This switching approach significantly reduces power loss and heat.
 - Stable constant-current operation achieved
 - Improved efficiency vs linear drivers
 - Strong alignment between simulation and real-world behavior (within limits)
+- <img width="1012" height="474" alt="image" src="https://github.com/user-attachments/assets/37e8856d-4647-4255-989d-649b28650d23" />
 
 ---
 
