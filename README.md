@@ -14,8 +14,7 @@ thermal effects, and noise all influence outcomes.
 ## Key Objectives
 - Design a constant-current LED driver
 - Improve efficiency compared to linear regulation
-- Experience the full hardware lifecycle:
-- 
+- Experience the full hardware lifecycle: 
 ---
 
 ## Working Principle
