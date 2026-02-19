@@ -47,7 +47,6 @@ This switching approach significantly reduces power loss and heat.
 - Stable constant-current operation achieved
 - Improved efficiency vs linear drivers
 - Strong alignment between simulation and real-world behavior (within limits)
-- <img width="1012" height="474" alt="image" src="https://github.com/user-attachments/assets/37e8856d-4647-4255-989d-649b28650d23" />
 
 ---
 
