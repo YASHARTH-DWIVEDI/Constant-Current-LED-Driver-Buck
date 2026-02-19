@@ -51,7 +51,7 @@ This switching approach significantly reduces power loss and heat.
 ---
 
 ## Lessons Learned
-Engineering is not about perfect designs—it is about controlled compromises.
+Engineering is not about perfect designs but about controlled compromises.
 This project reshaped my understanding of reliability, patience, and
 measurement-driven decision-making.
 
