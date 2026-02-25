@@ -17,8 +17,9 @@ void loop() {
   float senseVoltage = (adcValue * adcRefVoltage) / 1023.0;
   float ledCurrent = senseVoltage / senseResistor;
 
-  if (ledCurrent < referenceCurrent) pwmValue++;
-  else if (ledCurrent > referenceCurrent) pwmValue--;
+  float tolerance = 0.01; // 10mA tolerance
+  if (ledCurrent < (referenceCurrent - tolerance)) pwmValue++;
+  else if (ledCurrent > (referenceCurrent + tolerance)) pwmValue--;
 
   pwmValue = constrain(pwmValue, 0, 255);
   analogWrite(pwmPin, pwmValue);
