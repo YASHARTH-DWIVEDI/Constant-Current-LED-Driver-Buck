@@ -23,6 +23,9 @@ thermal effects, and noise all influence outcomes.
 - A sense resistor provides real-time current feedback
 - Duty cycle is adjusted to maintain constant LED current
 
+  <img width="1496" height="755" alt="image" src="https://github.com/user-attachments/assets/944fb459-c4af-48a7-b6f4-14e4488a8d2f" />
+
+
 This switching approach significantly reduces power loss and heat.
 
 ---
